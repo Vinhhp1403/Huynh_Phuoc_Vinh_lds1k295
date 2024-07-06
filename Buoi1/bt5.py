@@ -1,0 +1,6 @@
+lai=float(input('nhập lãi suất 1 năm: '))
+tien_gui=float(input('nhập số tiền gửi: '))
+thang=int(input('nhập số tháng gửi: '))
+tien_lai=(tien_gui*thang)*(lai/12)
+print('tiền lãi: ',tien_lai)
+print('tổng số tiền nhận được: ',tien_gui+tien_lai )
